@@ -3,3 +3,8 @@
 # Hide the unity standard files folders
 FirstGavinProject/Library
 FirstGavinProject/Unity*
+FirstGavinProject/ProjectSettings
+FirstGavinProject/UserSettings
+FirstGavinProject/Packages
+FirstGavinProject/Assets
+FirstGavinProject/.vscode
