@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # This is the settings file extension
 *.cfg
 # Hide the unity standard files folders
@@ -7,27 +6,10 @@ FirstGavinProject/Unity*
 FirstGavinProject/ProjectSettings
 FirstGavinProject/UserSettings
 FirstGavinProject/Packages
-FirstGavinProject/Assets
+FirstGavinProject/Assets/Scenes
 FirstGavinProject/.vscode
 FirstGavinProject/Logs
 FirstGavinProject/Doc*
 FirstGavinProject/Assembly*
 FirstGavinProject/Separate*
 FirstGavinProject/PsdP*
-=======
-# This is the settings file extension
-*.cfg
-# Hide the unity standard files folders
-FirstGavinProject/Library
-FirstGavinProject/Unity*
-FirstGavinProject/ProjectSettings
-FirstGavinProject/UserSettings
-FirstGavinProject/Packages
-FirstGavinProject/Assets
-FirstGavinProject/.vscode
-FirstGavinProject/Logs
-FirstGavinProject/Doc*
-FirstGavinProject/Assembly*
-FirstGavinProject/Separate*
-FirstGavinProject/PsdP*
->>>>>>> fce57013a5ca6edd87ecf0cc1d8aab2e1c1ffbf5
