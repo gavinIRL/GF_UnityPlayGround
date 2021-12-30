@@ -1,0 +1,5 @@
+# This is the settings file extension
+*.cfg
+# Hide the unity standard files folders
+FirstGavinProject/Library
+FirstGavinProject/Unity*
