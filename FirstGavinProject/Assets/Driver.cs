@@ -5,8 +5,8 @@ using UnityEngine;
 public class Driver : MonoBehaviour
 {
     // var declaration
-    float moveSpeed = 0.005f;
-    float turnSpeed = 0.1f;
+    [SerializeField] float moveSpeed = 0.005f;
+    [SerializeField] float turnSpeed = 0.1f;
 
     // Start is called before the first frame update
     void Start()
