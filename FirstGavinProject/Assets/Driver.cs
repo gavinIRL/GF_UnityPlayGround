@@ -18,7 +18,7 @@ public class Driver : MonoBehaviour
     void Update()
     {
         float steerAmount = Input.GetAxis("Horizontal");
-        transform.Rotate(0, 0, steerAmount);
+        transform.Rotate(0, 0, -steerAmount);
         transform.Translate(0, moveSpeed, 0);
     }
 }
