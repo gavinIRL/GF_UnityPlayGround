@@ -8,4 +8,9 @@ public class PrintToConsole : MonoBehaviour
     {
         Debug.Log("Object hit");
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Passed through the line");
+    }
 }
