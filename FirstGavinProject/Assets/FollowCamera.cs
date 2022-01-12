@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowCamera : MonoBehaviour
 {
     [SerializeField] GameObject carToFollow;
-    void Update()
+    void LateUpdate()
     {
         transform.position = carToFollow.transform.position + new Vector3(0, 0, -10);
     }
