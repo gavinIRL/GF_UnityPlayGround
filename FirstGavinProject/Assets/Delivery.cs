@@ -11,6 +11,9 @@ public class Delivery : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Passed through the line");
+        if (other.tag == "Target")
+        {
+            Debug.Log("Reached the target");
+        }
     }
 }
