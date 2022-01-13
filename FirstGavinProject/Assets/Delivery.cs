@@ -15,5 +15,9 @@ public class Delivery : MonoBehaviour
         {
             Debug.Log("Reached the target");
         }
+        if (other.tag == "Checkpoint")
+        {
+            Debug.Log("Reached the destination");
+        }
     }
 }
