@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Delivery : MonoBehaviour
 {
+    bool hasTargetOnboard = false;
     void OnCollisionEnter2D(Collision2D other)
     {
         Debug.Log("Object hit");
@@ -14,10 +15,12 @@ public class Delivery : MonoBehaviour
         if (other.tag == "Target")
         {
             Debug.Log("Reached the target");
+            hasTargetOnboard = true;
         }
-        if (other.tag == "Checkpoint")
+        if (other.tag == "Checkpoint" && hasTargetOnboard)
         {
             Debug.Log("Reached the destination");
+            hasTargetOnboard = false;
         }
     }
 }
