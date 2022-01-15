@@ -12,7 +12,7 @@ public class Delivery : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Target")
+        if (other.tag == "Target" && !hasTargetOnboard)
         {
             Debug.Log("Reached the target");
             hasTargetOnboard = true;
