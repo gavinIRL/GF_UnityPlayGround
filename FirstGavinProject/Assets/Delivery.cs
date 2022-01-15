@@ -16,6 +16,7 @@ public class Delivery : MonoBehaviour
         {
             Debug.Log("Reached the target");
             hasTargetOnboard = true;
+            Destroy(other, 0.1f);
         }
         if (other.tag == "Checkpoint" && hasTargetOnboard)
         {
