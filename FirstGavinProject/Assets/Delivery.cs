@@ -23,7 +23,7 @@ public class Delivery : MonoBehaviour
         {
             Debug.Log("Reached the target");
             hasTargetOnboard = true;
-            Destroy(other, 0.0f);
+            Destroy(other.gameObject, 0.1f);
             spriteRenderer.color = hasTargetColour;
         }
         if (other.tag == "Checkpoint" && hasTargetOnboard)
