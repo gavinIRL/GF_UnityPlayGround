@@ -5,8 +5,8 @@ using UnityEngine;
 public class Delivery : MonoBehaviour
 {
     bool hasTargetOnboard = false;
-    [SerializeField] Color32 hasTargetColour = new Color32(20, 200, 40, 255);
-    [SerializeField] Color32 noTargetColour = new Color32(200, 20, 140, 255);
+    [SerializeField] Color32 hasTargetColour = new Color32(20, 200, 40, 250);
+    [SerializeField] Color32 noTargetColour = new Color32(200, 20, 140, 250);
     SpriteRenderer spriteRenderer;
     private void Start()
     {
@@ -23,7 +23,7 @@ public class Delivery : MonoBehaviour
         {
             Debug.Log("Reached the target");
             hasTargetOnboard = true;
-            Destroy(other, 0.1f);
+            Destroy(other, 0.0f);
             spriteRenderer.color = hasTargetColour;
         }
         if (other.tag == "Checkpoint" && hasTargetOnboard)
