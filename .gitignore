@@ -15,3 +15,17 @@ FirstGavinProject/Assembly*
 FirstGavinProject/Separate*
 FirstGavinProject/PsdP*
 FirstGavinProject/Temp
+# QuizTest folders
+QuizTest/Library
+QuizTest/Unity*
+QuizTest/ProjectSettings
+QuizTest/UserSettings
+QuizTest/Packages
+QuizTest/.vscode
+QuizTest/Logs
+QuizTest/obj
+QuizTest/Doc*
+QuizTest/Assembly*
+QuizTest/Separate*
+QuizTest/PsdP*
+QuizTest/Temp
